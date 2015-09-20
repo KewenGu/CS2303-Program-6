@@ -26,5 +26,3 @@ Instruction:
 -------------------------------------------------------------------------------
 Discussion:
 Comparing the three copy methods, if using the right buffer size (8000 to 1200 at optimum), the third copy method is the fastest. However, the second copy method is the slowest, which is equivalent to the third copy method using buffer size 1. The overall performance of three copy method is about 0.1sec for copyfile1, 18sec for copyfile2 and 0.04sec for copyfile3.
-
-Note that I may misunderstand Part 8, in which the command-line options are not able to use. However, I know how to modifier it to use the command-line options. I just don't have time to do so.
