@@ -1,12 +1,12 @@
-Programmer: Kewen Gu
-Username: kgu
-Doxygen Documentation URL: http://users.wpi.edu/~kgu/cs2303assig6/
--------------------------------------------------------------------------------
+Arthur: Kewen Gu
+
 Description:
+-------------
 This assignment consists of two main programs. The first program, cptest, can copy one file to another file under a different name (renaming the file). or can copy a file to another directory with the same name. There are three copying methods. User can customize which copy method to use. User can also customize the buffer size for the third copying method. The second program, cptest2, can do the exactly same thing as cptest. However, It's able to set the copying method and buffer size with the command-line options. In addition, it's also able to copy multiple files into another directory.
 
--------------------------------------------------------------------------------
+
 Instruction:
+-------------
 "make": complies all the files.
 
 "./cptest <infile outfile>": runs the program cptest. Copys infile to outfile, where outfile can be either a file name or a directory name. The input order matters.
@@ -23,6 +23,7 @@ Instruction:
 
 "make docs": generate the Doxygen documentation, can be viewed via URL: http://users.wpi.edu/~kgu/cs2303assig6/.
 
--------------------------------------------------------------------------------
+
 Discussion:
+-------------
 Comparing the three copy methods, if using the right buffer size (8000 to 1200 at optimum), the third copy method is the fastest. However, the second copy method is the slowest, which is equivalent to the third copy method using buffer size 1. The overall performance of three copy method is about 0.1sec for copyfile1, 18sec for copyfile2 and 0.04sec for copyfile3.
