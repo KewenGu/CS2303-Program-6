@@ -1,5 +1,8 @@
-Arthur: Kewen Gu
-================
+Kewen Gu
+
+Program 6
+
+CS 2303
 
 Description:
 -------------
